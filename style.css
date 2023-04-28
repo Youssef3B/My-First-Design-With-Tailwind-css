@@ -1,0 +1,34 @@
+.bg-gray-800 {
+    background-color: #2d3748;
+  }
+  
+  .text-teal-200 {
+    color: #a0c6b4;
+  }
+  
+  .border-teal-400 {
+    border-color: #66d9ef;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .lg\:hidden {
+    display: block;
+    @media (min-width: 640px) {
+      display: none;
+    }
+  }
+  
+  .lg\:flex {
+    display: flex;
+    @media (min-width: 640px) {
+      display: block;
+    }
+  }
+  
